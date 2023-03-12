@@ -8,11 +8,11 @@
 }
 
 body {
-  background-color: rgb(182, 182, 182);
+  background-color: #202123;
 }
 
 #encabezado {
-  background-color: black;
+  background-color: #000000;
 }
 
 #titulo {
@@ -29,7 +29,46 @@ body {
   display: flex;
   justify-content: center;
 }
-.apartados h3{
+
+.apartados a{
   margin: 0 5em 1em;
   font-family: maxim;
+  color: white;
+  text-decoration:none;
+  transition: text-decoration 0.3s ease-in-out;
+}
+.apartados a:hover{
+  text-decoration:overline;
+  color:#50FE96;
+}
+
+.imagen {
+  width: 45%;
+  height: auto;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1%;
+  font-family: maxim;
+  color: white;
+}
+
+.imagen img {
+width: 100%;
+height: auto;
+border: 3px solid black;
+}
+
+.curiosidades{
+align-items: center;
+display: flex;
+justify-content: center;
+padding: 8%;
+font-family: maxim;
+color: white;
+}
+
+.curiosidades img{
+  width: 10%;
+  height: auto;
 }
