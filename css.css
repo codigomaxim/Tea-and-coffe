@@ -13,6 +13,10 @@ body {
 
 #encabezado {
   background-color: #000000;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
 }
 
 #titulo {
@@ -51,6 +55,7 @@ body {
   margin-top: 1%;
   font-family: maxim;
   color: white;
+  padding-top: 10rem;
 }
 
 .imagen img {
@@ -63,7 +68,7 @@ border: 3px solid black;
 align-items: center;
 display: flex;
 justify-content: center;
-padding: 8%;
+margin: 5% 0 0%;
 font-family: maxim;
 color: white;
 }
@@ -72,3 +77,26 @@ color: white;
   width: 10%;
   height: auto;
 }
+
+.curiosidades-texto{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 0 10%;
+
+  font-family: maxim;
+  color: white;
+  }
+
+  .curiosidades-texto ul{
+    width: 35%;
+    list-style: none;
+  }
+  
+  .curiosidades-texto ul li{
+    margin: 1em 0;
+  }
+
+  .curiosidades-texto ul li::before{
+    content: "- ";
+  }
